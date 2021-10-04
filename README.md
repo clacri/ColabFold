@@ -45,7 +45,7 @@
 
 ### FAQ
 - Can I use the models for **Molecular Replacement**?
-  - Yes, but be **CAREFUL**, the bfactor column is populated with pLDDT confidence values (higher = better). Phenix.phaser expects a "real" bfactor, where (lower = better). See [post](https://twitter.com/cheshireminima/status/1423929241675120643) from Claudia Millán.
+  - Yes, but be **CAREFUL**, the bfactor column is populated with pLDDT confidence values (higher = better). Phaser expects a "real" bfactor, where (lower = better). See [post](https://twitter.com/cheshireminima/status/1423929241675120643) from Claudia Millán and [documentation](https://phenix-online.org/version_docs/dev-4367/reference/process_predicted_model.html) for the phenix.process_predicted_model tool for more details.
 - What is the maximum length?
   - Limits depends on free GPU provided by Google-Colab `fingers-crossed`
   - For GPU: `Tesla T4` or `Tesla P100` with ~16G the max length is ~1400
